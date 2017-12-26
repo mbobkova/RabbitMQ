@@ -1,0 +1,16 @@
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Subscriber.exe.config
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Subscriber.exe
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Subscriber.pdb
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\EasyNetQ.dll
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Messages.dll
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.dll
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\RabbitMQ.Client.dll
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Messages.pdb
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Microsoft.Diagnostics.Tracing.EventSource.xml
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\bin\Debug\RabbitMQ.Client.xml
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\obj\Debug\Subscriber.csprojResolveAssemblyReference.cache
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\obj\Debug\Subscriber.csproj.CoreCompileInputs.cache
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\obj\Debug\Subscriber.exe
+C:\Users\Мария\source\repos\RabbitMQ\Subscriber\obj\Debug\Subscriber.pdb

@@ -1,0 +1,6 @@
+C:\Users\Мария\source\repos\RabbitMQ\Messages\bin\Debug\Messages.dll
+C:\Users\Мария\source\repos\RabbitMQ\Messages\bin\Debug\Messages.pdb
+C:\Users\Мария\source\repos\RabbitMQ\Messages\obj\Debug\Messages.csproj.CoreCompileInputs.cache
+C:\Users\Мария\source\repos\RabbitMQ\Messages\obj\Debug\Messages.dll
+C:\Users\Мария\source\repos\RabbitMQ\Messages\obj\Debug\Messages.pdb
+C:\Users\Мария\source\repos\RabbitMQ\Messages\obj\Debug\Messages.csprojResolveAssemblyReference.cache
