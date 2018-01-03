@@ -24,7 +24,7 @@ namespace Publisher
                             .WithIdentity("trigger1", "group1")
                             .StartNow()
                             .WithSimpleSchedule(x => x
-                                .WithIntervalInSeconds(5)
+                                .WithIntervalInSeconds(10)
                                 .RepeatForever())
                             .Build();
 
@@ -39,7 +39,8 @@ namespace Publisher
         {
             using (var bus = RabbitHutch.CreateBus("host=localhost"))
             {
-                string input = "denisvkozeka@gmail.com";
+                Console.WriteLine("Inter password:");
+                string input = Console.ReadLine();
                 Console.WriteLine("Sent message: " + input);
                 bus.Publish(new Message
                 {

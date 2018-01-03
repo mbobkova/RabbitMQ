@@ -23,16 +23,16 @@ namespace Subscriber
 
         static void HandleTextMessage(Message textMessage)
         {
-            string res = ValidatedEmail(textMessage.Text);
+            string res = ValidatedPassword(textMessage.Text);
 
             Console.WriteLine("Got message: {0}", textMessage.Text + " is " + res);
 
         }
 
-        static string ValidatedEmail(string message)
+        static string ValidatedPassword(string message)
         {
 
-            string url = "https://stringfunction.azurewebsites.net/api/HttpTriggerJS1?code=04TpixwX4BvXI3/11HTUsj9ny6kPrfpuFQqqZ2gxJCngtatWfilVpQ==";
+            string url = "https://validpassword1.azurewebsites.net/api/HttpTriggerJS1?code=WyH9bKl17xmfDtJOtOqb/ncHUnZmuJbMHNFxy2jfm0dgFY9S0NtAMQ==";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
@@ -44,7 +44,7 @@ namespace Subscriber
             {
                 string json = new JavaScriptSerializer().Serialize(new
                 {
-                    email = message
+                    password = message
                 });
 
                 streamWriter.Write(json);
@@ -60,7 +60,7 @@ namespace Subscriber
             }
             response.Close();
 
-            string res = resp.Equals("true") ? "correct" : "not correct";
+            string res = resp.Equals("true") ? "password is correct" : "password is not correct";
 
             return res;
         }
